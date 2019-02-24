@@ -1,0 +1,2 @@
+select alumno.nombre,datos.email,carrera.carrera from datos inner join alumno  on datos.id_datos = alumno.id_alumno inner join carrera
+on alumno.id_carrera=carrera.id_carrera where alumno.id_carrera=2;
